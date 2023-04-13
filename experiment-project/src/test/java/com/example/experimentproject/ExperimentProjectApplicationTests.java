@@ -2,6 +2,7 @@ package com.example.experimentproject;
 
 import com.alipay.api.AlipayApiException;
 import com.example.experimentproject.service.impl.AlipayServiceImpl;
+import org.junit.After;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.springframework.boot.test.context.SpringBootTest;
@@ -26,8 +27,12 @@ class ExperimentProjectApplicationTests {
 
         String msg = alipayService.AlipayTradePagePay(110L, "0.01");
         System.out.println(msg);
-
     }
+
+
+
+
+
 
 
 }
